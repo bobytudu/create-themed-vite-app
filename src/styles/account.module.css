@@ -1,0 +1,47 @@
+.accountPage {
+  background-color: var(--eggshellWhite);
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  /* max-width: 900px; */
+}
+.accountText {
+  font-size: 30px !important;
+  font-weight: bold !important;
+  margin: 20px 0 !important;
+}
+.accountBox {
+  max-width: 400px;
+  width: 100%;
+}
+.fieldsLabel {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin: 10px 0 5px !important;
+}
+.accountFieldsBox {
+  margin-bottom: 20px !important;
+}
+.accountFieldsBox input {
+  font-size: 16px !important;
+}
+.subscribeBtn,
+.upgradeBtn,
+.closeBtn {
+  border-radius: 10px !important;
+  text-transform: none !important;
+  color: var(--black) !important;
+  font-size: 14px !important;
+  background-color: var(--greenishYellow) !important;
+}
+.cancelBtn {
+  border-radius: 10px !important;
+  text-transform: none !important;
+  color: var(--white) !important;
+  font-size: 14px !important;
+  background: #153a12 !important;
+}
+.dialogCancelTitle {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}

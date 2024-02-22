@@ -1,0 +1,86 @@
+.plansPage {
+  background-color: var(--eggshellWhite);
+}
+.tabsButton {
+  border-radius: 10px !important;
+  text-transform: none !important;
+  color: var(--black) !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  width: 150px !important;
+  border: 1px solid var(--greenishYellow) !important;
+}
+.plansBox {
+  width: 300px;
+  padding: 40px 20px;
+  background-color: #f6f4ef;
+  border-radius: 10px;
+}
+.imageBox img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.planTitle {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+.planDescription {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  margin: 10px 0 10px 0 !important;
+  min-height: 90px;
+}
+.planPrice {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.planPerMonth {
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 12px !important;
+}
+.priceStack {
+  min-height: 50px;
+}
+.subscribeBtn {
+  text-transform: none !important;
+  background-color: var(--greenishYellow) !important;
+  font-size: 16px !important;
+  color: var(--black) !important;
+  margin: 10px 0 !important;
+}
+.pointsStack {
+  margin: 5px 0 !important;
+}
+.thisIncludesText {
+  margin: 5px 0 !important;
+}
+.tabsStack {
+  padding: 0px 0 10px 0;
+}
+.bestDealText {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  border: 1px solid var(--greenishYellow) !important;
+  border-radius: 10px !important;
+  padding: 5px !important;
+  background: var(--greenishYellow);
+}
+.bestDealTextBox {
+  min-height: 20px !important;
+  margin-bottom: 10px !important;
+}
+.planName {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.subscribedCheckBtn {
+  text-transform: none !important;
+  background-color: var(--foggyGrey) !important;
+  font-size: 16px !important;
+  color: var(--black) !important;
+  margin: 10px 0 !important;
+  pointer-events: none;
+}

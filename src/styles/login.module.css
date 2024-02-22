@@ -1,0 +1,145 @@
+@import "./colorConstant.css";
+
+.loginPage {
+  background: url("../assets/images/loginBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loginForm {
+  width: 420px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(12px);
+  padding: 20px 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.logoImageBox {
+  margin: 20px 0 !important;
+}
+
+.logoImage {
+  height: 44px;
+  width: 200px;
+}
+
+.beautifulText {
+  color: #4f4f4f !important;
+  font-size: 24px !important;
+  line-height: 44.5px !important;
+  margin: 20px 0 !important;
+}
+
+.loginText {
+  color: #1b4550 !important;
+  font-size: 28px !important;
+  line-height: 44.5px !important;
+  margin: 20px 0 !important;
+}
+
+.googleBox {
+  display: flex;
+  gap: 20px;
+  height: 54px;
+  padding: 0px 42px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--white);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.08);
+  margin: 20px 0 !important;
+}
+
+.googleText {
+  color: rgba(0, 0, 0, 0.54) !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+
+.orText {
+  color: #1b4550 !important;
+  font-size: 16px !important;
+  line-height: 10px !important;
+  margin: 30px 0 10px 0 !important;
+}
+
+.inputEmail {
+  margin: 20px 0 20px 0 !important;
+  border-radius: 10px;
+}
+
+.inputCode {
+  margin: 10px 0 20px 0 !important;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.acknowledgeText {
+  color: #000 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.46px !important;
+  text-transform: capitalize !important;
+  margin: 20px 0 !important;
+  text-align: left;
+}
+
+.continueBtn {
+  border-radius: 10px !important;
+  text-transform: none !important;
+  color: #000 !important;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  line-height: 26px !important;
+  letter-spacing: 0.46px !important;
+  text-transform: capitalize !important;
+}
+
+.oneTimeCodeText {
+  color: #4f4f4f !important;
+  font-size: 16px !important;
+  line-height: 23.5px !important;
+  text-align: left !important;
+}
+
+.linkStyle {
+  color: var(--green);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.linkStyle:hover {
+  text-decoration: underline;
+}
+
+.privacyPolicy {
+  background-color: var(--eggshellWhite);
+  padding: 1px 40px 20px;
+  text-align: justify;
+}
+
+.termsOfService {
+  background-color: var(--eggshellWhite);
+  padding: 1px 40px 20px;
+  text-align: justify;
+}
+
+.privacyPolicy p,
+.privacyPolicy h5,
+.privacyPolicy li {
+  font-size: 14px;
+}
+
+.termsOfService p,
+.termsOfService li,
+.termsOfService h5 {
+  font-size: 14px;
+}

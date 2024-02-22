@@ -1,0 +1,565 @@
+[
+  {
+    "name": "AI sneakers",
+    "creative": {
+      "name": "{{product.name}} 2024-01-29-60da7dfe77f26851e9a4c2c6b174af89",
+      "id": "120206695189990066"
+    },
+    "id": "120206695140460066",
+    "clicks": "45",
+    "impressions": "87110",
+    "spend": "2.81",
+    "cpc": "0.062444",
+    "cpm": "0.032258",
+    "cpp": "0.032527",
+    "ctr": "0.051659",
+    "ad_name": "AI sneakers",
+    "account_name": "Flavor AI",
+    "account_currency": "USD",
+    "account_id": "351331814020812",
+    "actions": [
+      {
+        "action_type": "page_engagement",
+        "value": "42"
+      },
+      {
+        "action_type": "post_engagement",
+        "value": "42"
+      },
+      {
+        "action_type": "post_reaction",
+        "value": "24"
+      },
+      {
+        "action_type": "link_click",
+        "value": "18"
+      }
+    ],
+    "adset_id": "120206695140470066",
+    "adset_name": "Memorable settings – Copy",
+    "buying_type": "AUCTION",
+    "campaign_id": "120206694615390066",
+    "campaign_name": "Priority Awareness",
+    "conversion_rate_ranking": "UNKNOWN",
+    "cost_per_action_type": [
+      {
+        "action_type": "link_click",
+        "value": "0.156111"
+      },
+      {
+        "action_type": "post_engagement",
+        "value": "0.066905"
+      },
+      {
+        "action_type": "page_engagement",
+        "value": "0.066905"
+      }
+    ],
+    "cost_per_inline_link_click": "0.156111",
+    "cost_per_inline_post_engagement": "0.066905",
+    "cost_per_outbound_click": [
+      {
+        "action_type": "outbound_click",
+        "value": "0.165294"
+      }
+    ],
+    "cost_per_unique_action_type": [
+      {
+        "action_type": "link_click",
+        "value": "0.165294"
+      },
+      {
+        "action_type": "post_engagement",
+        "value": "0.068537"
+      },
+      {
+        "action_type": "page_engagement",
+        "value": "0.068537"
+      }
+    ],
+    "cost_per_unique_click": "0.062444",
+    "cost_per_unique_inline_link_click": "0.165294",
+    "cost_per_unique_outbound_click": [
+      {
+        "action_type": "outbound_click",
+        "value": "0.165294"
+      }
+    ],
+    "date_start": "2024-01-22",
+    "date_stop": "2024-02-05",
+    "engagement_rate_ranking": "UNKNOWN",
+    "frequency": "1.008334",
+    "inline_link_click_ctr": "0.020664",
+    "inline_link_clicks": "18",
+    "inline_post_engagement": "42",
+    "objective": "OUTCOME_AWARENESS",
+    "optimization_goal": "REACH",
+    "outbound_clicks": [
+      {
+        "action_type": "outbound_click",
+        "value": "17"
+      }
+    ],
+    "outbound_clicks_ctr": [
+      {
+        "action_type": "outbound_click",
+        "value": "0.019516"
+      }
+    ],
+    "quality_ranking": "UNKNOWN",
+    "reach": "86390",
+    "social_spend": "0",
+    "video_play_curve_actions": [
+      {
+        "action_type": "video_view"
+      }
+    ],
+    "website_ctr": [
+      {
+        "action_type": "link_click",
+        "value": "0.020664"
+      }
+    ],
+    "object_type": "PRIVACY_CHECK_FAIL",
+    "status": "ACTIVE",
+    "creative_id": "120206695189990066",
+    "ad_id": "120206695140460066"
+  },
+  {
+    "name": "Test video ad",
+    "creative": {
+      "name": "Ad from a Page post 2024-01-13-83dbd19ba5d1010a3dde1b37532751b6",
+      "id": "120206078309190066"
+    },
+    "id": "120206078182890066",
+    "clicks": "0",
+    "impressions": "3225",
+    "spend": "3.22",
+    "cpm": "0.99845",
+    "cpp": "1.001555",
+    "ctr": "0",
+    "ad_name": "Test video ad",
+    "account_name": "Flavor AI",
+    "account_currency": "USD",
+    "account_id": "351331814020812",
+    "actions": [
+      {
+        "action_type": "page_engagement",
+        "value": "474"
+      },
+      {
+        "action_type": "post_engagement",
+        "value": "474"
+      },
+      {
+        "action_type": "video_view",
+        "value": "473"
+      },
+      {
+        "action_type": "post_reaction",
+        "value": "1"
+      }
+    ],
+    "adset_id": "120206078182840066",
+    "adset_name": "Test video ad set",
+    "buying_type": "AUCTION",
+    "campaign_id": "120206078182800066",
+    "campaign_name": "Test video ad",
+    "conversion_rate_ranking": "UNKNOWN",
+    "cost_per_action_type": [
+      {
+        "action_type": "post_engagement",
+        "value": "0.006793"
+      },
+      {
+        "action_type": "page_engagement",
+        "value": "0.006793"
+      },
+      {
+        "action_type": "video_view",
+        "value": "0.006808"
+      }
+    ],
+    "cost_per_inline_post_engagement": "1.61",
+    "cost_per_thruplay": [
+      {
+        "action_type": "video_view",
+        "value": "0.076667"
+      }
+    ],
+    "cost_per_unique_action_type": [
+      {
+        "action_type": "post_engagement",
+        "value": "0.006837"
+      },
+      {
+        "action_type": "page_engagement",
+        "value": "0.006837"
+      },
+      {
+        "action_type": "video_view",
+        "value": "0.006837"
+      }
+    ],
+    "date_start": "2024-01-22",
+    "date_stop": "2024-02-05",
+    "engagement_rate_ranking": "UNKNOWN",
+    "frequency": "1.00311",
+    "inline_post_engagement": "2",
+    "objective": "OUTCOME_AWARENESS",
+    "optimization_goal": "REACH",
+    "quality_ranking": "BELOW_AVERAGE_35",
+    "reach": "3215",
+    "social_spend": "0",
+    "video_30_sec_watched_actions": [
+      {
+        "action_type": "video_view",
+        "value": "17"
+      }
+    ],
+    "video_avg_time_watched_actions": [
+      {
+        "action_type": "video_view",
+        "value": "2"
+      }
+    ],
+    "video_p100_watched_actions": [
+      {
+        "action_type": "video_view",
+        "value": "7"
+      }
+    ],
+    "video_p25_watched_actions": [
+      {
+        "action_type": "video_view",
+        "value": "28"
+      }
+    ],
+    "video_p50_watched_actions": [
+      {
+        "action_type": "video_view",
+        "value": "12"
+      }
+    ],
+    "video_p75_watched_actions": [
+      {
+        "action_type": "video_view",
+        "value": "8"
+      }
+    ],
+    "video_p95_watched_actions": [
+      {
+        "action_type": "video_view",
+        "value": "8"
+      }
+    ],
+    "video_play_actions": [
+      {
+        "action_type": "video_view",
+        "value": "2262"
+      }
+    ],
+    "video_play_curve_actions": [
+      {
+        "action_type": "video_view",
+        "value": [
+          100,
+          62,
+          33,
+          21,
+          14,
+          11,
+          8,
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          2,
+          2,
+          2,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "thumbnail_url": "https://scontent.fpat3-1.fna.fbcdn.net/v/t15.13418-10/419195100_1641748623030379_367822605007031980_n.jpg?_nc_cat=100&ccb=1-7&_nc_ohc=oL-JPX4P63MAX_tdZX1&_nc_oc=AQkTGMO3cabCCe-SfwepIFgUlX4XbWH1G0F5ajpdcllOqzmTySlS8ywz82KsV5b4QUo&_nc_ht=scontent.fpat3-1.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=1a7029&_nc_sid=58080a&oh=00_AfArQ1PSSbe4szQh_9tGiWDnvNXZei1LqAv06y6Ukmlxuw&oe=65C4BCB8",
+    "video_id": "386540940593095",
+    "object_type": "VIDEO",
+    "status": "ACTIVE",
+    "thumbnail_id": "969609061361859",
+    "creative_id": "120206078309190066",
+    "image_url": "https://scontent.fpat3-1.fna.fbcdn.net/v/t15.13418-10/419195100_1641748623030379_367822605007031980_n.jpg?_nc_cat=100&ccb=1-7&_nc_ohc=oL-JPX4P63MAX_tdZX1&_nc_oc=AQkTGMO3cabCCe-SfwepIFgUlX4XbWH1G0F5ajpdcllOqzmTySlS8ywz82KsV5b4QUo&_nc_ht=scontent.fpat3-1.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=1a7029&_nc_sid=58080a&oh=00_AfArQ1PSSbe4szQh_9tGiWDnvNXZei1LqAv06y6Ukmlxuw&oe=65C4BCB8",
+    "ad_id": "120206078182890066"
+  },
+  {
+    "name": "Fake perfume",
+    "creative": {
+      "name": "Xyz 2024-01-25-1fe8c451277fb880fc1d77dced1fb08d",
+      "id": "120206468117680066"
+    },
+    "id": "120206428847940066",
+    "clicks": "2",
+    "impressions": "5125",
+    "spend": "5.88",
+    "cpc": "2.94",
+    "cpm": "1.147317",
+    "cpp": "1.147317",
+    "ctr": "0.039024",
+    "ad_name": "Fake perfume",
+    "account_name": "Flavor AI",
+    "account_currency": "USD",
+    "account_id": "351331814020812",
+    "actions": [
+      {
+        "action_type": "page_engagement",
+        "value": "1"
+      },
+      {
+        "action_type": "post_engagement",
+        "value": "1"
+      },
+      {
+        "action_type": "link_click",
+        "value": "1"
+      }
+    ],
+    "adset_id": "120205957596100066",
+    "adset_name": "Flavor ai test ad",
+    "buying_type": "AUCTION",
+    "campaign_id": "120205957595950066",
+    "campaign_name": "Flavor ai test ad",
+    "conversion_rate_ranking": "UNKNOWN",
+    "cost_per_action_type": [
+      {
+        "action_type": "link_click",
+        "value": "5.88"
+      },
+      {
+        "action_type": "post_engagement",
+        "value": "5.88"
+      },
+      {
+        "action_type": "page_engagement",
+        "value": "5.88"
+      }
+    ],
+    "cost_per_inline_link_click": "5.88",
+    "cost_per_inline_post_engagement": "5.88",
+    "cost_per_unique_action_type": [
+      {
+        "action_type": "link_click",
+        "value": "5.88"
+      },
+      {
+        "action_type": "post_engagement",
+        "value": "5.88"
+      },
+      {
+        "action_type": "page_engagement",
+        "value": "5.88"
+      }
+    ],
+    "cost_per_unique_click": "2.94",
+    "cost_per_unique_inline_link_click": "5.88",
+    "date_start": "2024-01-22",
+    "date_stop": "2024-02-05",
+    "engagement_rate_ranking": "UNKNOWN",
+    "frequency": "1",
+    "inline_link_click_ctr": "0.019512",
+    "inline_link_clicks": "1",
+    "inline_post_engagement": "1",
+    "objective": "OUTCOME_AWARENESS",
+    "optimization_goal": "REACH",
+    "quality_ranking": "UNKNOWN",
+    "reach": "5125",
+    "social_spend": "0",
+    "video_play_curve_actions": [
+      {
+        "action_type": "video_view"
+      }
+    ],
+    "website_ctr": [
+      {
+        "action_type": "link_click",
+        "value": "0.019512"
+      }
+    ],
+    "thumbnail_url": "https://scontent.fpat3-3.fna.fbcdn.net/v/t45.1600-4/422382118_120206468106470066_7031039937628130907_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=j95BWSIiRy0AX94eNDD&_nc_ht=scontent.fpat3-3.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=46b8c0&_nc_sid=58080a&oh=00_AfDNNEXwGZwcEjiL8z-tElVT-QAYzx01eo0X2EGPMiGyXw&oe=65C596CB",
+    "object_type": "SHARE",
+    "status": "ACTIVE",
+    "creative_id": "120206468117680066",
+    "image_url": "https://scontent.fpat3-3.fna.fbcdn.net/v/t45.1600-4/422382118_120206468106470066_7031039937628130907_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=j95BWSIiRy0AX94eNDD&_nc_ht=scontent.fpat3-3.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=46b8c0&_nc_sid=58080a&oh=00_AfDNNEXwGZwcEjiL8z-tElVT-QAYzx01eo0X2EGPMiGyXw&oe=65C596CB",
+    "ad_id": "120206428847940066"
+  },
+  {
+    "name": "Fake perfume",
+    "creative": {
+      "name": "Ad from a Page post 2024-01-10-3a2a1d39e8030bf14f895827a075e957",
+      "id": "120205960431070066"
+    },
+    "id": "120205957596230066",
+    "clicks": "1",
+    "impressions": "3118",
+    "spend": "3.23",
+    "cpc": "3.23",
+    "cpm": "1.03592",
+    "cpp": "1.039923",
+    "ctr": "0.032072",
+    "ad_name": "Fake perfume",
+    "account_name": "Flavor AI",
+    "account_currency": "USD",
+    "account_id": "351331814020812",
+    "actions": [
+      {
+        "action_type": "page_engagement",
+        "value": "1"
+      },
+      {
+        "action_type": "post_engagement",
+        "value": "1"
+      },
+      {
+        "action_type": "photo_view",
+        "value": "1"
+      }
+    ],
+    "adset_id": "120205957596100066",
+    "adset_name": "Flavor ai test ad",
+    "buying_type": "AUCTION",
+    "campaign_id": "120205957595950066",
+    "campaign_name": "Flavor ai test ad",
+    "conversion_rate_ranking": "UNKNOWN",
+    "cost_per_action_type": [
+      {
+        "action_type": "post_engagement",
+        "value": "3.23"
+      },
+      {
+        "action_type": "page_engagement",
+        "value": "3.23"
+      }
+    ],
+    "cost_per_inline_post_engagement": "3.23",
+    "cost_per_unique_action_type": [
+      {
+        "action_type": "post_engagement",
+        "value": "3.23"
+      },
+      {
+        "action_type": "page_engagement",
+        "value": "3.23"
+      }
+    ],
+    "cost_per_unique_click": "3.23",
+    "date_start": "2024-01-22",
+    "date_stop": "2024-02-05",
+    "engagement_rate_ranking": "UNKNOWN",
+    "frequency": "1.003863",
+    "inline_post_engagement": "1",
+    "objective": "OUTCOME_AWARENESS",
+    "optimization_goal": "REACH",
+    "quality_ranking": "BELOW_AVERAGE_35",
+    "reach": "3106",
+    "social_spend": "0",
+    "video_play_curve_actions": [
+      {
+        "action_type": "video_view"
+      }
+    ],
+    "image_url": "https://scontent.fpat3-1.fna.fbcdn.net/v/t45.1600-4/415489041_120205957671170066_404764709253924392_n.png?_nc_cat=100&ccb=1-7&_nc_sid=c0a1f7&_nc_ohc=hoxHkOHgILYAX8_0Z7N&_nc_ht=scontent.fpat3-1.fna&edm=ALjApogEAAAA&oh=00_AfDkaGfue3Ueox50Is2luhIu3tdVAeTTnZhrEYBQBqzW7A&oe=65C5FBD4",
+    "image_hash": "468c32b5df87a23f533e4a2b96fd6413",
+    "thumbnail_url": "https://scontent.fpat3-2.fna.fbcdn.net/v/t39.30808-6/418972388_122103869750177110_4745431646372026180_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=NZLVkbxaUtsAX8m9oNR&_nc_ht=scontent.fpat3-2.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=21a04a&_nc_sid=58080a&oh=00_AfDR9OaWxRL0MMoTZiMAOm64ysGvys9Jx1jW4s8oxGp3Mw&oe=65C5C05A",
+    "object_type": "PHOTO",
+    "status": "ACTIVE",
+    "creative_id": "120205960431070066",
+    "ad_id": "120205957596230066"
+  },
+  {
+    "name": "video ad",
+    "creative": {
+      "name": "{{product.name}} 2023-11-08-9c992240c2215f4384919cbb7496e152",
+      "id": "120202267912960066"
+    },
+    "id": "120202250636910066",
+    "clicks": "0",
+    "impressions": "0",
+    "spend": "0",
+    "ad_name": "video ad",
+    "account_name": "Flavor AI",
+    "account_currency": "USD",
+    "account_id": "351331814020812",
+    "adset_id": "120202250636900066",
+    "adset_name": "video ad set",
+    "buying_type": "AUCTION",
+    "campaign_id": "120202082771510066",
+    "campaign_name": "New Awareness Campaign",
+    "canvas_avg_view_percent": "0",
+    "canvas_avg_view_time": "0",
+    "conversion_rate_ranking": "UNKNOWN",
+    "date_start": "2024-01-22",
+    "date_stop": "2024-02-05",
+    "engagement_rate_ranking": "UNKNOWN",
+    "estimated_ad_recallers": "0",
+    "frequency": "0",
+    "instant_experience_clicks_to_open": "0",
+    "instant_experience_clicks_to_start": "0",
+    "objective": "OUTCOME_AWARENESS",
+    "optimization_goal": "REACH",
+    "quality_ranking": "UNKNOWN",
+    "reach": "0",
+    "social_spend": "0",
+    "thumbnail_url": "https://scontent.fpat3-2.fna.fbcdn.net/v/t45.1600-4/397644017_120202080926860066_7518943572004697448_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=MLwvRTvs7XYAX-FTZMP&_nc_ht=scontent.fpat3-2.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=46b8c0&_nc_sid=58080a&oh=00_AfAGORvw3jOiOEU3utBBFky3HuRLSPRDW3nbQkltd-WPZA&oe=65C5E1E6",
+    "object_type": "PRIVACY_CHECK_FAIL",
+    "status": "ACTIVE",
+    "creative_id": "120202267912960066",
+    "image_url": "https://scontent.fpat3-2.fna.fbcdn.net/v/t45.1600-4/397644017_120202080926860066_7518943572004697448_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=MLwvRTvs7XYAX-FTZMP&_nc_ht=scontent.fpat3-2.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=46b8c0&_nc_sid=58080a&oh=00_AfAGORvw3jOiOEU3utBBFky3HuRLSPRDW3nbQkltd-WPZA&oe=65C5E1E6",
+    "ad_id": "120202250636910066"
+  },
+  {
+    "name": "New Awareness Ad",
+    "creative": {
+      "name": "Flavor AI 2023-11-07-9fe91f6233ae0bd4f20ceabdb5930b76",
+      "id": "120202251036930066"
+    },
+    "id": "120202082771790066",
+    "clicks": "0",
+    "impressions": "0",
+    "spend": "0",
+    "ad_name": "New Awareness Ad",
+    "account_name": "Flavor AI",
+    "account_currency": "USD",
+    "account_id": "351331814020812",
+    "adset_id": "120202082771710066",
+    "adset_name": "New Awareness Ad Set",
+    "buying_type": "AUCTION",
+    "campaign_id": "120202082771510066",
+    "campaign_name": "New Awareness Campaign",
+    "canvas_avg_view_percent": "0",
+    "canvas_avg_view_time": "0",
+    "conversion_rate_ranking": "UNKNOWN",
+    "date_start": "2024-01-22",
+    "date_stop": "2024-02-05",
+    "engagement_rate_ranking": "UNKNOWN",
+    "estimated_ad_recallers": "0",
+    "frequency": "0",
+    "instant_experience_clicks_to_open": "0",
+    "instant_experience_clicks_to_start": "0",
+    "objective": "OUTCOME_AWARENESS",
+    "optimization_goal": "REACH",
+    "quality_ranking": "UNKNOWN",
+    "reach": "0",
+    "social_spend": "0",
+    "thumbnail_url": "https://scontent.fpat3-2.fna.fbcdn.net/v/t45.1600-4/397644017_120202080926860066_7518943572004697448_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=MLwvRTvs7XYAX-FTZMP&_nc_ht=scontent.fpat3-2.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=46b8c0&_nc_sid=58080a&oh=00_AfAGORvw3jOiOEU3utBBFky3HuRLSPRDW3nbQkltd-WPZA&oe=65C5E1E6",
+    "object_type": "PRIVACY_CHECK_FAIL",
+    "status": "ACTIVE",
+    "creative_id": "120202251036930066",
+    "image_url": "https://scontent.fpat3-2.fna.fbcdn.net/v/t45.1600-4/397644017_120202080926860066_7518943572004697448_n.png?_nc_cat=102&ccb=1-7&_nc_ohc=MLwvRTvs7XYAX-FTZMP&_nc_ht=scontent.fpat3-2.fna&edm=ALjApogEAAAA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75&ur=46b8c0&_nc_sid=58080a&oh=00_AfAGORvw3jOiOEU3utBBFky3HuRLSPRDW3nbQkltd-WPZA&oe=65C5E1E6",
+    "ad_id": "120202082771790066"
+  }
+]

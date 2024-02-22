@@ -1,0 +1,20 @@
+:root {
+  --deepGreen: rgba(21, 58, 18, 1);
+  --lightDeepGreen: rgba(21, 58, 18, 0.4);
+  --green: rgba(41, 97, 47, 1);
+  --lightHoverGreen: rgba(41, 97, 47, 0.2);
+  --steelBlue: #1b4550;
+  --purple: #701365;
+  --pink: #f3abd0;
+  --eggshellWhite: rgba(238, 234, 223, 1);
+  --lightEggshellWhite: rgba(238, 234, 223, 0.5);
+  --white: #ffffff;
+  --lightWhite: #FFFBF0;
+  --deepPink: rgba(220, 53, 141, 1);
+  --lightDeepPink: rgba(220, 53, 141, 0.6);
+  --greenishYellow: #bfd443;
+  --lightGreenishYellow: #bfd44399;
+  --reddishOrange: #ec642b;
+  --foggyGrey: #29612f36;
+  --black: #000000;
+}

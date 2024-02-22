@@ -1,0 +1,56 @@
+.paymentPage {
+  background-color: var(--eggshellWhite);
+}
+.formCard {
+  width: 400px;
+  padding: 40px 20px;
+  background-color: #f6f4ef;
+  border-radius: 10px;
+}
+.paymentBtn {
+  border-radius: 10px !important;
+  text-transform: none !important;
+  color: var(--black) !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  background-color: var(--greenishYellow) !important;
+  margin: 10px 0 !important;
+}
+.enterText {
+  text-align: center !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin-bottom: 10px !important;
+}
+
+.textLines {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px; /* Add padding to create space between text and lines */
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.textLines::before,
+.textLines::after {
+  content: "";
+  background: #ced6dd;
+  height: 1px;
+  width: 100%;
+  z-index: 0;
+  left: 0;
+  top: calc(50% - 0.5px);
+  display: block;
+  position: absolute;
+}
+
+.textLines span {
+  background: #f6f4ef;
+  display: inline-block;
+  padding: 0 5px;
+  z-index: 1;
+  position: relative;
+}

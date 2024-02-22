@@ -1,0 +1,20 @@
+.input {
+  margin: 12px 0 !important;
+  width: 100% !important;
+}
+.actionIcon {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.titleWrap {
+  display: none !important;
+}
+
+.ageInput {
+  display: flex;
+  grid-gap: 10px;
+}
+.formControlRoot {
+  width: 100%;
+}
