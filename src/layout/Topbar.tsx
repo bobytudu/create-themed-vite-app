@@ -82,11 +82,7 @@ export default function Topbar() {
   return (
     <AppBar
       position="fixed"
-      sx={{
-        bgcolor: "background.paper",
-        borderBottom: 1,
-        borderColor: "divider",
-      }}
+      sx={{ bgcolor: "background.paper", borderBottom: 1, borderColor: 'divider' }}
       elevation={0}
     >
       <Toolbar disableGutters sx={{ px: { xs: 1, md: 5 } }}>
