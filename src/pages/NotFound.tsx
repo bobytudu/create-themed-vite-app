@@ -1,6 +1,5 @@
-import { Typography } from '@mui/material'
+import { Button, Typography } from '@mui/material'
 import Page from "components/page/Page";
-import React from 'react'
 
 export default function NotFound() {
   return (
@@ -16,6 +15,7 @@ export default function NotFound() {
           height: '100vh'
         }}>
         <Typography variant="h3">Sorry!! The page you're trying to access is not available</Typography>
+        <Button variant="outlined" size="large" sx={{ mt: 3 }} onClick={() => window.history.back()}>Go Back</Button>
       </div>
     </Page>
   )

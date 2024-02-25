@@ -14,10 +14,9 @@ export default function Page(props: PageProps) {
   return (
     <Box
       sx={{
-        background: "white",
+        bgcolor: "background.default",
         minHeight: "calc(100vh - 70px)",
-        minWidth: 1000,
-        // minWidth: "100vw",
+        minWidth: "100vw",
         ...props.sx,
       }}
     >

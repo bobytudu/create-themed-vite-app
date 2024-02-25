@@ -10,7 +10,14 @@ import { NavLink, Link } from "react-router-dom";
 import AccountMenu from "src/layout/AccountMenu";
 import {Icon } from '@iconify/react'
 import useAuthStatus from "utils/hooks/useAuthStatus";
-import { IconButton } from "@mui/material";
+import {
+  Drawer,
+  IconButton,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText,
+} from "@mui/material";
 import { useAppDispatch, useAppSelector } from "src/redux/hooks";
 import { switchToDark, switchToLight } from "src/redux/reducers/theme.reducer";
 
@@ -34,12 +41,19 @@ function CustomLink({ path, title }: { path: string; title: string }) {
   );
 }
 
+const links = [
+  { path: "/", title: "Home" },
+  { path: "/teachers", title: "Teachers" },
+  { path: "/about", title: "About" },
+];
+
 export default function Topbar() {
   const dispatch = useAppDispatch();
   const [anchorEl, setAnchorEl] = React.useState<null | boolean>(null);
   const open = Boolean(anchorEl);
+  const [openDrawer, setOpenDrawer] = React.useState(false);
   let [isSignedIn] = useAuthStatus();
-  const {mode} = useAppSelector(state => state.theme)
+  const { mode } = useAppSelector((state) => state.theme);
 
   const handleLogout = () => {
     const auth = getAuth(firebaseApp);
@@ -61,31 +75,76 @@ export default function Topbar() {
     setAnchorEl(false);
   };
 
+  const renderLinks = links.map((link, index) => (
+    <CustomLink key={index} path={link.path} title={link.title} />
+  ));
+
   return (
     <AppBar
       position="static"
-      sx={{ bgcolor: "background.paper", borderBottom: 1, borderColor: 'divider' }}
+      sx={{
+        bgcolor: "background.paper",
+        borderBottom: 1,
+        borderColor: "divider",
+      }}
       elevation={0}
     >
-      <Toolbar disableGutters sx={{ px: 5 }}>
+      <Toolbar disableGutters sx={{ px: { xs: 1, md: 5 } }}>
+        <IconButton
+          onClick={() => setOpenDrawer(true)}
+          sx={{
+            display: { xs: "block", md: "none" },
+          }}
+        >
+          <Icon icon="bx:menu" />
+        </IconButton>
         <Link to="/" style={{ marginRight: 16 }}>
-          <Typography variant="h6" sx={{color: 'text.primary'}}>LOGO</Typography>
-          {/* <img
-            src={brandLogo}
-            style={{
-              width: 100,
-              height: 20,
-            }}
-            alt="logo"
-          /> */}
+          <Typography variant="h6" sx={{ color: "text.primary" }}>
+            LOGO
+          </Typography>
         </Link>
-        <Stack direction="row" alignItems="center" flexGrow={1}>
-          <CustomLink path="/" title="Home" />
-          <CustomLink path="/contact" title="Contact" />
-          <CustomLink path="/about" title="About" />
+        <Box sx={{ flexGrow: { xs: 1, md: 0 } }} />
+        <Stack
+          direction="row"
+          alignItems="center"
+          flexGrow={1}
+          sx={{ display: { xs: "none", md: "flex" } }}
+        >
+          {renderLinks}
         </Stack>
+        <Drawer
+          anchor="left"
+          open={openDrawer}
+          onClose={() => setOpenDrawer(false)}
+        >
+          <Box minWidth={200}>
+            <Box
+              sx={{
+                p: 2,
+                textAlign: "center",
+                borderBottom: 1,
+                borderColor: "divider",
+              }}
+            >
+              <Typography variant="h6" sx={{ color: "text.primary" }}>
+                LOGO
+              </Typography>
+            </Box>
+            <List>
+              {links.map((item) => (
+                <Link to={item.path} key={item.path} onClick={() => setOpenDrawer(false)}>
+                  <ListItem disablePadding>
+                    <ListItemButton>
+                      <ListItemText primary={item.title} />
+                    </ListItemButton>
+                  </ListItem>
+                </Link>
+              ))}
+            </List>
+          </Box>
+        </Drawer>
         <Box sx={{ flexGrow: 0, display: "flex", alignItems: "center" }}>
-        {mode === "light" ? (
+          {mode === "light" ? (
             <IconButton
               onClick={() => dispatch(switchToDark())}
               sx={{ width: 40, height: 40 }}

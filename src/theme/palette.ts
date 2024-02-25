@@ -136,7 +136,7 @@ const darkMode = {
   divider: alpha( '#fff', 0.24 ),
   text: {
     primary: '#fff',
-    secondary: "rgba(255, 255, 255, 0.7)",
+    secondary: "#B8B8B8",
     disabled: 'rgba(255, 255, 255, 0.5)',
     btn: "#0265DC",
     green: "#007A4D",
@@ -187,7 +187,7 @@ const palette: PaletteType = {
   },
   background: {
     paper: "#fff",
-    default: GREY[100],
+    default: GREY[300],
     neutral: GREY[200],
     primary: "#EAF6C0",
   },
