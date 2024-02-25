@@ -54,13 +54,24 @@ export default function Input(theme: ComponentsOverridesProps) {
       styleOverrides: {
         root: {
           "& .MuiOutlinedInput-notchedOutline": {
-            // borderColor: alpha(theme.palette.grey[500], 0.32),
-            // // border: "none",
-            border: "1px solid rgba(0,0,0,0.1)",
+            border: "1px solid",
+            borderColor: theme.palette.divider,
           },
           "&.Mui-disabled": {
             "& .MuiOutlinedInput-notchedOutline": {
               borderColor: theme.palette.action.disabledBackground,
+            },
+          },
+          "&.Mui-focused": {
+            "& .MuiOutlinedInput-notchedOutline": {
+              border: "1px solid",
+              borderColor: theme.palette.divider,
+            },
+          },
+          "&:hover": {
+            "& .MuiOutlinedInput-notchedOutline": {
+              border: "1px solid",
+              borderColor: theme.palette.divider,
             },
           },
         },
