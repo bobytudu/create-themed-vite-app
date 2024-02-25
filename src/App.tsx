@@ -6,7 +6,6 @@ import Routes from "routes/Routes";
 
 //css files
 import "./App.css";
-import "react-typist/dist/Typist.css";
 import AlertComponent from "components/global/Alert";
 import Loader from "components/global/Loader";
 

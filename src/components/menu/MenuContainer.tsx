@@ -37,7 +37,7 @@ export default function MenuContainer({
           border={1}
           borderColor='divider'
           boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px"
-          bgcolor="background.secondary"
+          bgcolor="background.paper"
           sx={sx}
         >
           {children}
