@@ -29,7 +29,7 @@ export default function Button(theme: ComponentsOverridesProps) {
         containedPrimary: {
           fontWeight: theme.typography.fontWeightMedium,
           fontSize: theme.typography.subtitle2.fontSize,
-          color: theme.palette.primary.main,
+          color: 'white',
           boxShadow: "none",
           backgroundColor: theme.palette.text.btn,
           "&:hover": {
@@ -40,8 +40,10 @@ export default function Button(theme: ComponentsOverridesProps) {
           boxShadow: theme.customShadows.secondary,
         },
         outlinedPrimary: {
-          background: "white",
-          border: "1px solid rgba(0,0,0,0.1)",
+          background: 'transparent',
+          border: "1px solid",
+          borderColor: theme.palette.divider,
+          color: theme.palette.text.primary
         },
         outlinedInherit: {
           border: `1px solid ${alpha(theme.palette.grey[500], 0.32)}`,
