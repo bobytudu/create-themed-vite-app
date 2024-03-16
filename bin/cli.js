@@ -34,11 +34,12 @@ const repoName = process.argv[2];
 const authorName = readlineSync.question("Enter author's name: ");
 const authorEmail = readlineSync.question("Enter author's email: ");
 const checkoutCommand = `git clone https://github.com/bobytudu/create-themed-vite-app ${repoName}`;
-const installCommand = `cd ${repoName} && npm install --only=dev --force && npm install --force`;
+const installCommand = `cd ${repoName} && pnpm install`;
 
 console.log(`Cloning repository with name ${repoName}`);
 const checkedOut = runCommand(checkoutCommand);
 if (!checkedOut) process.exit(-1);
+runCommand("git remote remove origin")
 
 // Edit package.json
 const jsonPath = path.join(currentDirectory, `${repoName}/package.json`);
