@@ -1,9 +1,9 @@
 {
-  "name": "echo-mate",
-  "version": "0.0.1",
+  "name": "create-themed-vite-app",
+  "version": "0.0.4",
   "author": {
-    "name": "abcd",
-    "email": "abcd@gmail.com"
+    "name": "bobytudu",
+    "email": "js903783@gmail.com"
   },
   "scripts": {
     "dev": "vite",
