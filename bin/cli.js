@@ -39,7 +39,11 @@ const installCommand = `cd ${repoName} && pnpm install`;
 console.log(`Cloning repository with name ${repoName}`);
 const checkedOut = runCommand(checkoutCommand);
 if (!checkedOut) process.exit(-1);
-runCommand("git remote remove origin")
+try {
+  runCommand("git remote remove origin")
+} catch (error) {
+  console.log("Error while removing origin remote", error);
+}
 
 // Edit package.json
 const jsonPath = path.join(currentDirectory, `${repoName}/package.json`);
