@@ -42,9 +42,7 @@ function CustomLink({ path, title }: { path: string; title: string }) {
 }
 
 const links = [
-  { path: "/", title: "Home" },
-  { path: "/teachers", title: "Teachers" },
-  { path: "/about", title: "About" },
+  { path: "/", title: "Home" }
 ];
 
 export default function Topbar() {
@@ -63,7 +61,6 @@ export default function Topbar() {
         window.location.href = "/login";
       })
       .catch((error) => {
-        // An error occurred during logout
         console.log("Logout error:", error);
       });
   };

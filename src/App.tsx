@@ -2,7 +2,7 @@ import { Provider } from "react-redux";
 import store from "src/redux/store";
 import ThemeProvider from "theme/index";
 import { BrowserRouter } from "react-router-dom";
-import Routes from "routes/Routes";
+import Routes from "src/service/routes/Routes";
 
 //css files
 import "./App.css";

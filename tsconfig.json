@@ -13,12 +13,11 @@
       "components/*": ["./src/components/*"],
       "layouts/*": ["./src/layouts/*"],
       "pages/*": ["./src/pages/*"],
-      "routes/*": ["./src/routes/*"],
+      "routes/*": ["src/service/routes/*"],
       "services/*": ["./src/services/*"],
       "styles/*": ["./src/styles/*"],
       "theme/*": ["./src/theme/*"],
-      "utils/*": ["./src/utils/*"],
-
+      "utils/*": ["./src/utils/*"]
     },
 
     /* Bundler mode */

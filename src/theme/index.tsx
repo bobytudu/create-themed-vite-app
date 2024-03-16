@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React, { useMemo } from "react";
 // @mui
 import { CssBaseline } from "@mui/material";
@@ -17,11 +16,6 @@ import componentsOverride, { ComponentsOverridesProps } from "./overrides";
 import { useAppSelector } from "src/redux/hooks";
 
 // ----------------------------------------------------------------------
-
-ThemeProvider.propTypes = {
-  children: PropTypes.node,
-};
-
 export interface ThemeOptionTypes {
   palette: any;
   shape: { borderRadius: number };

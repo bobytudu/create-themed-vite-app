@@ -1,6 +1,11 @@
 const config = {
-  REACT_APP_API: import.meta.env.VITE_REACT_APP_API,
+  appId: import.meta.env.VITE_appId,
+  apiKey: import.meta.env.VITE_apiKey,
+  projectId: import.meta.env.VITE_projectId,
+  authDomain: import.meta.env.VITE_authDomain,
+  measurementId: import.meta.env.VITE_measurementId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
 };
-//https://dev-gen-ai-3.a-ffi.com
-//https://dev-gen-ai-5.a-ffi.com
-export default config
+
+export default config;
