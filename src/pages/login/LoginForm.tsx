@@ -252,7 +252,7 @@ function LoginForm() {
         boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
       }}
     >
-      <Typography variant="h6">LOGO</Typography>
+      <Typography variant="h6" sx={{fontWeight: 800, textAlign: 'center'}}>ECHO MATE</Typography>
       {!showReset ? (
         <Box>
           <Input

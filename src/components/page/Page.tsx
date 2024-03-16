@@ -2,6 +2,7 @@ import { SxProps } from "@mui/material";
 import React from "react";
 import Box from "@mui/material/Box";
 import { Helmet } from "react-helmet";
+import "assets/bootstrap/css/bootstrap.min.css";
 
 interface PageProps {
   title?: string;
